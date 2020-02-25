@@ -2,7 +2,9 @@ package com.schmidt;
 
 public class Main {
 
-    public static void main(String[] args) {
+    Author author = new Author();
+
+    public static void main(String[] args){
 
     }
 }

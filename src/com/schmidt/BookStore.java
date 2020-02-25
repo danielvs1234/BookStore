@@ -29,5 +29,9 @@ public class BookStore {
     public List getLenders(){
         return lenders;
     }
-    
+
+    public static void printBookStore(BookStore bs){
+
+    }
+
 }

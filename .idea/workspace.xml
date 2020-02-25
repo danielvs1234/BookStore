@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YJUrTA7GPdfRW6ocJbv0B4Kwjn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -59,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582660389186</updated>
-      <workItem from="1582660392316" duration="1310000" />
+      <workItem from="1582660392316" duration="3794000" />
     </task>
     <servers />
   </component>
@@ -67,18 +71,19 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="72" y="182" key="#Notifications" timestamp="1582661309825">
+    <state x="72" y="182" key="#Notifications" timestamp="1582662012022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1582661309825" />
-    <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1582661522946">
+    <state x="72" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1582662012022" />
+    <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1582662854714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582661522946" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1582661121394">
+    <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582662854714" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1582662007054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582661121394" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582662007054" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582661011686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
