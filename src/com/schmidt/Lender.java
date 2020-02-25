@@ -18,4 +18,16 @@ public class Lender extends Person {
         this.CPR = CPR;
     }
 
+    public void addBookForLending(Book book){
+        lentedBooks.add(book);
+    }
+
+    public void removeBookFromLending(Book book){
+        for(Book b : lentedBooks){
+            if(book.compareTo(b) == 1){
+                lentedBooks.remove(lentedBooks.indexOf(b));
+            }
+        }
+    }
+
 }

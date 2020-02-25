@@ -1,6 +1,6 @@
 package com.schmidt;
 
-public class Book {
+public class Book implements Comparable<Book>{
     private String title;
     private String genre;
     private int ISBN13;
@@ -27,4 +27,27 @@ public class Book {
         this.author = author;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public int getISBN13() {
+        return ISBN13;
+    }
+
+    public Person getAuthor() {
+        return author;
+    }
+
+
+    @Override
+    public int compareTo(Book book) {
+        if(this.getISBN13() == book.getISBN13()){
+            return 1;
+        }else return 0;
+    }
 }
