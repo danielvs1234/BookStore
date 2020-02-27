@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f4f9d1d-5583-48b5-abfc-ce60643e9ea2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/AuthorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/AuthorBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/BookBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/BookBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/BookStoreBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/BookStoreBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/LenderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/LenderBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Model/BookStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Model/BookStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Builders/AuthorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/AuthorBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Builders/BookBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/BookBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Builders/BookStoreBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/BookStoreBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Builders/LenderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/LenderBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Model/Book.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f4f9d1d-5583-48b5-abfc-ce60643e9ea2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582660389186</updated>
       <workItem from="1582660392316" duration="5688000" />
-      <workItem from="1582804205337" duration="8682000" />
+      <workItem from="1582804205337" duration="9404000" />
     </task>
     <servers />
   </component>
