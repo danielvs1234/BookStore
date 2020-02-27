@@ -1,5 +1,7 @@
 package com.schmidt.Model;
 
+
+
 import java.util.List;
 
 public class Lender extends Person {

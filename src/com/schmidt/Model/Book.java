@@ -4,7 +4,7 @@ public class Book implements Comparable<Book>{
     private String title;
     private String genre;
     private String ISBN13;
-    private Person author;
+    private Author author;
 
 
     public Book(){
@@ -23,7 +23,7 @@ public class Book implements Comparable<Book>{
         this.ISBN13 = ISBN13;
     }
 
-    public void setAuthor(Person author){
+    public void setAuthor(Author author){
         this.author = author;
     }
 

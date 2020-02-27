@@ -7,7 +7,8 @@ public class BookStore {
 
     private int ID;
     private List<Book> books;
-    private List<Person> lenders;
+    private List<Lender> lenders;
+
 
 
     public BookStore(){
@@ -19,15 +20,15 @@ public class BookStore {
         books.add(book);
     }
 
-    public void addLender(Person person){
-        lenders.add(person);
+    public void addLender(Lender lender){
+        lenders.add(lender);
     }
 
     public List<Book> getBooks(){
         return books;
     }
 
-    public List<Person> getLenders(){
+    public List<Lender> getLenders(){
         return lenders;
     }
 
@@ -39,18 +40,29 @@ public class BookStore {
     }
 
     public static void printBookStore(BookStore bs){
+        System.out.println("----------------------------------------------------------");
         System.out.println("Bookstore with ID: " + bs.ID + "\n");
-        System.out.println("Number of Books in storage: " + bs.getBooks().size() + "\n");
+        System.out.println("Amount of current lenders registered: " + bs.getLenders().size());
+        System.out.print("Number of Books in storage: " + bs.getBooks().size() + "\n");
         System.out.println("Books: ");
+
         for(Book book : bs.getBooks()){
+            System.out.println("----------------------------------------------------------");
             System.out.println("Title: " + book.getTitle());
-            System.out.println("Author: " + book.getAuthor());
             System.out.println("Genre: " + book.getGenre());
-            System.out.println("ISBN13: " + book.getISBN13());
-            if(book.getAuthor() != null){
-                System.out.println("Author: " + book.getAuthor());
+            System.out.println("ISBN13: " + book.getISBN13() + "\n");
+            if(book.getAuthor() != null) {
+                System.out.println("\t" + "Author: " + "\n\t" + "Name: " + book.getAuthor().getName());
+                System.out.println("\t" + "Age: " + book.getAuthor().getAge() + "\n");
             }
         }
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("Lenders: ");
+        for(Lender lender : bs.getLenders()){
+            System.out.println("Name: " + lender.getName());
+            System.out.println("Age: " + lender.getAge() + "\n");
+        }
+
     }
 
 }

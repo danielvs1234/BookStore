@@ -1,16 +1,19 @@
 package com.schmidt.Builders;
 
+import com.schmidt.Model.Author;
 import com.schmidt.Model.Book;
 import com.schmidt.Model.Person;
 
 public class BookBuilder {
 
     private Book book;
+    private Author author;
 
     BookStoreBuilder bookStoreBuilder;
 
     public BookBuilder(BookStoreBuilder bookStoreBuilder){
         this.bookStoreBuilder = bookStoreBuilder;
+        author = new Author();
         book = new Book();
     }
 
@@ -29,14 +32,24 @@ public class BookBuilder {
         return this;
     }
 
+    public BookBuilder authorName(String name){
+        this.author.setName(name);
+        this.book.setAuthor(this.author);
+        return this;
+    }
+
+    public BookBuilder authorAge(int age){
+        this.author.setAge(age);
+        this.book.setAuthor(this.author);
+        return this;
+    }
+
+
+
     public BookStoreBuilder done(){
         return this.bookStoreBuilder;
     }
 
-    public BookBuilder author(Person author){
-        this.book.setAuthor(author);
-        return this;
-    }
 
     public Book getBook(){
         return this.book;
