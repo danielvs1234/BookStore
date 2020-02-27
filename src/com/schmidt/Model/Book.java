@@ -3,7 +3,7 @@ package com.schmidt.Model;
 public class Book implements Comparable<Book>{
     private String title;
     private String genre;
-    private int ISBN13;
+    private String ISBN13;
     private Person author;
 
 
@@ -19,7 +19,7 @@ public class Book implements Comparable<Book>{
         this.genre = genre;
     }
 
-    public void setISBN13(int ISBN13){
+    public void setISBN13(String ISBN13){
         this.ISBN13 = ISBN13;
     }
 
@@ -35,7 +35,7 @@ public class Book implements Comparable<Book>{
         return genre;
     }
 
-    public int getISBN13() {
+    public String getISBN13() {
         return ISBN13;
     }
 

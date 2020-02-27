@@ -28,4 +28,8 @@ public class LenderBuilder {
         return this.lender;
     }
 
+    public BookStoreBuilder done(){
+        return this.bookStoreBuilder;
+    }
+
 }

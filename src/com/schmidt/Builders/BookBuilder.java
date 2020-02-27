@@ -5,7 +5,7 @@ import com.schmidt.Model.Person;
 
 public class BookBuilder {
 
-    Book book;
+    private Book book;
 
     BookStoreBuilder bookStoreBuilder;
 
@@ -24,7 +24,7 @@ public class BookBuilder {
         return this;
     }
 
-    public BookBuilder ISBN(int isbn){
+    public BookBuilder ISBN(String isbn){
         this.book.setISBN13(isbn);
         return this;
     }
@@ -33,12 +33,12 @@ public class BookBuilder {
         return this.bookStoreBuilder;
     }
 
- //   public BookBuilder author(Person author){
- //       this.book.setAuthor(author);
- //       return this;
- //   }
+    public BookBuilder author(Person author){
+        this.book.setAuthor(author);
+        return this;
+    }
 
-  //  public Book getBook(){
-  //      return this.book;
-  //  }
+    public Book getBook(){
+        return this.book;
+    }
 }

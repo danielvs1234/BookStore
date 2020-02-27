@@ -3,10 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="5f4f9d1d-5583-48b5-abfc-ce60643e9ea2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/AuthorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/AuthorBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/BookBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/BookBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/BookStoreBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/BookStoreBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/LenderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Builders/LenderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Model/BookStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStore/com/schmidt/Model/BookStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Builders/AuthorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/AuthorBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/schmidt/Builders/BookBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/BookBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/schmidt/Builders/BookStoreBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/BookStoreBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Builders/LenderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/LenderBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/schmidt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Model/BookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Model/BookStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Model/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582660389186</updated>
       <workItem from="1582660392316" duration="5688000" />
-      <workItem from="1582804205337" duration="7301000" />
+      <workItem from="1582804205337" duration="8682000" />
     </task>
     <servers />
   </component>
@@ -93,6 +102,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582665204953" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1582813988454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582813988454" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1582813988454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582813988454" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1582813988453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582813988453" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1582813988454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582813988454" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1582662007054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

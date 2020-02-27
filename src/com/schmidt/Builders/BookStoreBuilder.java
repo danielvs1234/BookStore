@@ -25,7 +25,7 @@ public class BookStoreBuilder {
 
     public BookBuilder book(){
         BookBuilder bookBuilder = new BookBuilder(this);
-        getBookStore().addBook(bookBuilder.book);
+        getBookStore().addBook(bookBuilder.getBook());
         return bookBuilder;
     }
 

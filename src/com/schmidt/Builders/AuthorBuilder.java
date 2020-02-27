@@ -29,6 +29,9 @@ public class AuthorBuilder {
         return this.author;
     }
 
+    public BookStoreBuilder done(){
+        return this.bookStoreBuilder;
+    }
 
 
 
