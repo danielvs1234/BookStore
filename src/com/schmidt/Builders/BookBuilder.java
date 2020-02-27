@@ -5,7 +5,7 @@ import com.schmidt.Model.Person;
 
 public class BookBuilder {
 
-    private Book book;
+    Book book;
 
     BookStoreBuilder bookStoreBuilder;
 
@@ -29,12 +29,16 @@ public class BookBuilder {
         return this;
     }
 
-    public BookBuilder author(Person author){
-        this.book.setAuthor(author);
-        return this;
+    public BookStoreBuilder done(){
+        return this.bookStoreBuilder;
     }
 
-    public Book getBook(){
-        return this.book;
-    }
+ //   public BookBuilder author(Person author){
+ //       this.book.setAuthor(author);
+ //       return this;
+ //   }
+
+  //  public Book getBook(){
+  //      return this.book;
+  //  }
 }

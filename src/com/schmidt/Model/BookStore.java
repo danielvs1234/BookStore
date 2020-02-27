@@ -47,6 +47,9 @@ public class BookStore {
             System.out.println("Author: " + book.getAuthor());
             System.out.println("Genre: " + book.getGenre());
             System.out.println("ISBN13: " + book.getISBN13());
+            if(book.getAuthor() != null){
+                System.out.println("Author: " + book.getAuthor());
+            }
         }
     }
 

@@ -14,13 +14,18 @@ public class BookStoreBuilder {
         bookStore = new BookStore();
     }
 
-    public static BookStoreBuilder BookStore(){
+    public static BookStoreBuilder BookStore() {
         return new BookStoreBuilder();
+    }
+
+    public BookStoreBuilder id(int ID){
+        this.bookStore.setID(ID);
+        return this;
     }
 
     public BookBuilder book(){
         BookBuilder bookBuilder = new BookBuilder(this);
-        getBookStore().addBook(bookBuilder.getBook());
+        getBookStore().addBook(bookBuilder.book);
         return bookBuilder;
     }
 
@@ -38,5 +43,9 @@ public class BookStoreBuilder {
 
     public BookStore getBookStore(){
         return this.bookStore;
+    }
+
+    public void printBooksStore(){
+        BookStore.printBookStore(bookStore);
     }
 }
