@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f4f9d1d-5583-48b5-abfc-ce60643e9ea2" name="Default Changelist" comment="" />
+    <list default="true" id="5f4f9d1d-5583-48b5-abfc-ce60643e9ea2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/AuthorBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/BookBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/BookStoreBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/schmidt/Builders/LenderBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/BookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Model/BookStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Lender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Model/Lender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/schmidt/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/schmidt/Model/Person.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YJUrTA7GPdfRW6ocJbv0B4Kwjn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582660389186</updated>
       <workItem from="1582660392316" duration="5688000" />
+      <workItem from="1582804205337" duration="5234000" />
     </task>
     <servers />
   </component>
@@ -84,6 +99,10 @@
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582661121394" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582662007054" />
+    <state x="183" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582804584369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="183" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582804584369" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582661011686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

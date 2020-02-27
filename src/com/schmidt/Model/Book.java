@@ -1,4 +1,4 @@
-package com.schmidt;
+package com.schmidt.Model;
 
 public class Book implements Comparable<Book>{
     private String title;

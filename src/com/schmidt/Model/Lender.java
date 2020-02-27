@@ -1,4 +1,4 @@
-package com.schmidt;
+package com.schmidt.Model;
 
 import java.util.List;
 
